@@ -97,7 +97,7 @@ class Candidato(models.Model):
         def __str__(self):
                 return self.usuario
 ```
-### Criando tabelas no banco de dados
+## Criando tabelas no banco de dados
 
 Depois de criar os models , criamos as tabelas no banco.
 
@@ -155,7 +155,7 @@ if settings.DEBUG:
 ```python
 path('admin/', admin.site.urls),
 ```
-### Urls emprego (emprego/urls.py)
+##Urls emprego (emprego/urls.py)
 
 Todas a urls necessária para acessar nossas funções, e rotas do nosso sistema. Inclusive do login e logout .
 
